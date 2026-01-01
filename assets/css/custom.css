@@ -1,0 +1,262 @@
+.author__avatar img {
+  border-radius: 0 !important;
+  border: 1px solid var(--mm-border-color);
+}
+
+/* Remove horizontal rule under publication category headings */
+.archive h2 + hr {
+  display: none;
+}
+
+/* Section headings like "Journal Articles" */
+.archive h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 2rem;      /* space BEFORE each section */
+  margin-bottom: 0.3rem; /* tight space AFTER heading */
+}
+
+/* Compact spacing inside each publication item */
+.archive .archive__item {
+  margin-bottom: 0.9rem;   /* space between papers */
+}
+
+/* Reduce paragraph spacing inside a publication */
+.archive .archive__item p {
+  margin: 0.25rem 0;
+  line-height: 1.35;
+}
+
+/* Tighten spacing after the title */
+.archive .archive__item-title {
+  margin-bottom: 0.15rem;
+}
+
+/* Tighten "Published in ..." / meta line */
+.archive .archive__item-meta {
+  margin: 0.1rem 0 0.2rem 0;
+  font-size: 0.95em;
+}
+
+/* Tighten citation block */
+.archive .archive__item-excerpt {
+  margin: 0.25rem 0;
+}
+
+/* Tighten download links */
+.archive .page__meta {
+  margin-top: 0.15rem;
+}
+
+/* Hide "Recommended citation:" label in publications */
+.archive .archive__item-excerpt::before {
+  display: none !important;
+}
+
+/* ===========================
+   PUBLICATIONS: CV-style
+   =========================== */
+
+/* Remove "Published in ..." line */
+.archive .archive__item-meta {
+  display: none !important;
+}
+
+/* Remove "Recommended citation:" label */
+.archive .archive__item-excerpt strong {
+  display: none !important;
+}
+
+/* Tighten citation spacing */
+.archive .archive__item-excerpt {
+  margin: 0.2rem 0 !important;
+}
+
+/* Remove "Download Paper" button row */
+.archive .page__meta {
+  display: none !important;
+}
+
+/* ===== Publications cleanup: hide template labels ===== */
+
+/* 1) Hide any "Published in ..." meta line (many variants) */
+.archive .archive__item-meta,
+.archive .page__meta,
+.archive .archive__item .page__meta,
+.archive .archive__item .archive__item-meta {
+  display: none !important;
+}
+
+/* 2) Hide "Recommended citation:" label (works even if it's not ::before) */
+.archive .archive__item-excerpt strong,
+.archive .archive__item-excerpt b {
+  display: none !important;
+}
+
+/* 3) If the label is injected via CSS ::before, kill it too */
+.archive .archive__item-excerpt::before {
+  content: "" !important;
+  display: none !important;
+}
+
+/* 4) Hide “Download Paper” style link rows if they’re in a button group */
+.archive .btn,
+.archive .btn--inverse,
+.archive .btn--primary {
+  display: none !important;
+}
+
+/* 5) Tighten spacing inside each item */
+.archive .archive__item p {
+  margin: 0.2rem 0 !important;
+}
+
+.archive a,
+.page__content a {
+  text-decoration: none;
+}
+
+.page__content a:hover {
+  text-decoration: underline;
+}
+
+/* Hiring page: compact lists with clear section separation */
+.hiring-page .page__content p {
+  margin-bottom: 0.2em;
+}
+
+.hiring-page .page__content ul {
+  margin-top: 0;
+  margin-bottom: 1em;   /* space between sections */
+  padding-left: 1.2em;
+}
+
+.hiring-page .page__content li {
+  margin-bottom: 0.08em;   /* spacing between items */
+  line-height: 1.4;       /* THIS is what actually tightens it */
+}
+
+/* Tight spacing between headings and lists - ONLY on hiring page */
+.hiring-page .page__content h2 + ul,
+.hiring-page .page__content h3 + ul,
+.hiring-page .page__content h4 + ul {
+  margin-top: 0 !important;
+}
+
+.hiring-page .page__content h2,
+.hiring-page .page__content h3,
+.hiring-page .page__content h4 {
+  margin-bottom: 0.1em !important;
+}
+
+/* Body text */
+.hiring-page .page__content p,
+.hiring-page .page__content li {
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+
+
+
+/* Hiring page: remove the extra top header spacing */
+.hiring-page .page__hero,
+.hiring-page .page__title,
+.hiring-page header.page__header {
+  display: none !important;
+}
+
+.hiring-page .page__content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.hiring-page .page {
+  padding-top: 0 !important;
+}
+
+/* Hiring page: remove the empty title header block at top */
+.hiring-page .page__inner-wrap > header {
+  display: none !important;
+}
+
+/* Hiring page: remove any leftover top spacing */
+.hiring-page .page__inner-wrap {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Hiring page: if your first heading still sits low, pull it up */
+.hiring-page .page__content > :first-child {
+  margin-top: 0 !important;
+}
+
+.page__content hr {
+  border: none;
+  height: 1px;
+  background: transparent;
+  margin: 1em 0;
+}
+
+/* 1) Kill all <hr> lines everywhere */
+hr {
+  border: 0 !important;
+  height: 0 !important;
+  background: none !important;
+}
+
+/* 2) Remove common section separators (borders) */
+.masthead,
+.page,
+.page__inner-wrap,
+.page__content,
+.sidebar,
+.archive,
+.footer {
+  border: none !important;
+}
+
+
+/* 4) Remove item dividers in lists/archives (often visible in dark mode) */
+.archive__item,
+.list__item,
+.entries-list .list__item,
+.grid__item,
+.notice,
+.toc {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+/* Footer cleanup */
+.page__footer-follow {
+  display: none !important;
+}
+
+/* Remove Sitemap link */
+.page__footer-nav {
+  display: none !important;
+}
+
+/* Remove Follow / Feed row */
+.page__footer-follow {
+  display: none !important;
+}
+
+/* Remove "Site last updated" line */
+.page__footer-meta {
+  display: none !important;
+}
+
+/* Make footer background match the page */
+.page__footer {
+  background-color: transparent !important;
+  /* OR match your page background color specifically: */
+  /* background-color: var(--background-color) !important; */
+}
+
+/* Also check the footer wrapper */
+footer {
+  background-color: transparent !important;
+}

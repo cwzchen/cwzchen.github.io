@@ -1,18 +1,11 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+default:
+  name: "Chia-Wen Chen"
+  bio: "Associate Research Fellow"
+  location: "Taipei, Taiwan"
+  employer: "Academia Sinica"
+  email: "cwzchen@gate.sinica.edu.tw"
+  avatar: "/images/myphoto.jpg"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+
