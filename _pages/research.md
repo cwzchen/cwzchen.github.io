@@ -66,6 +66,9 @@ Accepted, *Journal of Industrial Economics*.
 
 ## Working Papers and Work in Progress
 
+**Platform Induced Price Discrimination**
+(with Jing-Yuan Chiou and Mau-Ting Lin)
+
 **Can Task-Based Incentives Strengthen Energy-Saving Goals? A Field Experiment**  
 (with Yating Chuang and Josie I Chen)
 
