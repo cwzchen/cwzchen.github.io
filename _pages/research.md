@@ -8,8 +8,8 @@ author_profile: true
 ## Publications
 
 **[Incentivizing Demand Response Using Auctions: Evidence from Steel Producers in Taiwan](/files/papers/DR_latest.pdf)**
- (with Jian-Da Zhu)  
-Accepted, *Journal of Industrial Economics*.  
+(with Jian-Da Zhu)  
+*Journal of Industrial Economics*, 74(3), 2026, pp. 297–315.  
 
 **[Performance Feedback in a Group Contest: A Field Experiment on Electricity Conservation](/files/papers/Team_latest.pdf)**  
 (with Josie I Chen and Min-Jen Lin)  
@@ -40,7 +40,6 @@ Accepted, *Journal of Industrial Economics*.
 **[競爭法多邊平臺經濟分析之研究—價格策略及其對競爭之影響](https://www.ftc.gov.tw/upload/8ad02437-9118-43c3-85f2-b82852cefebc.pdf)**  
 邱敬淵、陳嘉雯、李素華、蔡昀廷  
 《公平交易季刊》, 31(2), 2023, pp. 81–146.  
-[Paper]
 
 **[COVID-19 大流行以來公衛與經濟相關學術文獻之擇要回顧](https://econ.ntu.edu.tw/ter/new/data/new/TER51-3/TER513-2.pdf)**  
 賴孚權、陳為政、陳嘉雯、蔡明宏  
@@ -48,7 +47,6 @@ Accepted, *Journal of Industrial Economics*.
 
 **[民營電廠在長期合約中的競爭關係：以台灣和平電廠輸電塔倒塌事件為例](https://econ.ntu.edu.tw/ter/new/data/new/TER49-4/TER494-3.pdf)**  
 《經濟論文叢刊》, 49(4), 2021, pp. 533–565.  
-[Paper]
 
 **[結合決定事後影響評估之研究—以事件研究法為例](https://www.ftc.gov.tw/upload/c679be3c-5fe6-4215-88c8-be7251651158.pdf)**  
 胡偉民、陳嘉雯、羅光達  
@@ -66,10 +64,10 @@ Accepted, *Journal of Industrial Economics*.
 
 ## Working Papers and Work in Progress
 
-**Platform Induced Price Discrimination**
+**Platform-Induced Promotions and Seller Behavior: Evidence from Online Food Delivery**  
 (with Jing-Yuan Chiou and Mau-Ting Lin)
 
 **Can Task-Based Incentives Strengthen Energy-Saving Goals? A Field Experiment**  
-(with Yating Chuang and Josie I Chen)
+(with Josie I Chen and Yating Chuang)
 
 **Energy Savings from Home Appliance Replacements**
